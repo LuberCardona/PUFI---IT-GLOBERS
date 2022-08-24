@@ -1,0 +1,40 @@
+
+.newsletter{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h6{
+    color: rgb(192, 189, 189);
+}
+
+.form1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+input{
+    width: 400px;
+    height: 30px;
+}
+.enviado{
+    display: flex;
+    justify-content: center;   
+    
+}
+
+.enviado p{
+    color: green;
+    font-size: 20px;
+}
+
+.errores{
+    display: flex;
+    justify-content: center; 
+    color: red;
+    font-size: 15px;
+}
+

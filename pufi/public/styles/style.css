@@ -1,0 +1,256 @@
+.containermain {
+  width: 100%;
+  position: relative;
+}
+
+.containermain p {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 50%;
+  color: white;
+  font-size: 38px;
+  text-align: center;
+  display: grid;
+}
+
+.img_main {
+  width: 100%;
+}
+
+#home {
+  z-index: 1;
+  color: white;
+  font-size: 40px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.btnNav {
+  border-right: solid 2px white;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  justify-content: space-around;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  top: 30px;
+}
+
+.btn {
+  border-right: none;
+}
+
+.menu {
+  font-size: 10px;
+}
+
+.btnShop {
+  border: solid 1px white;
+  background-color: transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 70%;
+  left: 50%;
+  font-size: 15px;
+  text-align: center;
+  padding: 15px;
+  height: 50px;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.imgShop {
+  width: 400px;
+  height: 400px;
+  min-width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  text-align: center;
+}
+
+.imgShopDescripcion {
+  width: 100px;
+  height: 100px;
+}
+
+.columns, .columnsInstagram {
+  place-self: center;
+  width: 100%;
+}
+
+.btnVerMas {
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(68, 68, 68);
+  font-size: 10px;
+}
+
+.containerInstagram {
+  margin: 50px 50px;
+  -moz-text-align-last: center;
+       text-align-last: center;
+  color: rgb(131, 131, 131);
+}
+
+h1 {
+  color: rgb(36, 36, 36);
+}
+
+.imgInstagram {
+  width: 150px;
+  height: 150px;
+  margin: 1px;
+}
+
+.containerIns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.shopImgsInst {
+  display: grid;
+  place-items: center;
+}
+
+#pufiRain {
+  width: 100%;
+}
+
+#pufiPuff {
+  width: 100%;
+}
+
+#pufiCart {
+  width: 100%;
+}
+
+#pufiNap {
+  width: 100%;
+}
+
+#pufiRainContainer {
+  display: block;
+}
+
+#pufiPuffContainer {
+  display: block;
+}
+
+#pufiCartContainer {
+  display: block;
+}
+
+#pufiNapContainer {
+  display: block;
+}
+
+.containerFooter {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.footer {
+  box-shadow: 5px -5px 10px rgb(223, 222, 222);
+}
+
+ul {
+  list-style: none;
+  font-size: 10px;
+}
+
+p {
+  font-size: 10px;
+  padding: 5px;
+}
+
+li {
+  padding: 5px;
+}
+
+.footerItems {
+  border-right: solid 1px rgb(223, 222, 222);
+  margin-right: 10px;
+}
+
+.icons {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.footerCopy {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  align-items: center;
+  border-top: solid 1px rgb(223, 222, 222);
+  margin-top: 20px;
+}
+
+#imgFooter {
+  margin-left: 60%;
+}
+
+.newsletter {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h6 {
+  color: rgb(192, 189, 189);
+}
+
+.form1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+}
+
+.enviado {
+  display: flex;
+  justify-content: center;
+}
+
+.enviado p {
+  color: green;
+  font-size: 20px;
+}
+
+.errores {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */

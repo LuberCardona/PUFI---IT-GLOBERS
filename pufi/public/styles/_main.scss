@@ -1,0 +1,70 @@
+
+.containermain{
+    width: 100%;
+    position: relative;
+}
+
+.containermain p{
+   position: absolute;
+   transform: translate(-50%, -50%);
+   top: 35%;
+   left: 50%;
+   color: white;
+   font-size: 38px;
+   text-align: center;
+   display: grid;
+} 
+
+.img_main{
+    width: 100%;
+}
+
+
+#home{
+    z-index: 1;
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.btnNav{
+    border-right: solid 2px white;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    top: 30px;
+}
+.btn{
+    border-right: none;
+
+}
+.menu{
+    font-size: 10px;
+}
+
+
+.btnShop{
+    border: solid 1px white;
+    background-color: transparent;
+    position: absolute;
+   transform: translate(-50%, -50%);
+   top: 70%;
+   left: 50%;
+   font-size: 15px;
+   text-align: center;
+   padding: 15px;
+    height: 50px;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+}
